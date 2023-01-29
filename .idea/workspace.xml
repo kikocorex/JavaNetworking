@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e6af4d3-76f7-4c0e-b826-9dd5c99a59e6" name="Changes" comment="- Added client and server">
+    <list default="true" id="9e6af4d3-76f7-4c0e-b826-9dd5c99a59e6" name="Changes" comment="- Added URL Reader">
+      <change afterPath="$PROJECT_DIR$/src/JavaURL/URLConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674987002823</updated>
-      <workItem from="1674987004092" duration="5890000" />
+      <workItem from="1674987004092" duration="7166000" />
     </task>
     <task id="LOCAL-00001" summary="- Added client and server">
       <created>1674990067376</created>
@@ -148,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675000305073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Added URL Reader">
+      <created>1675001881454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675001881454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Added client and server" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added client and server" />
+    <MESSAGE value="- Added URL Reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added URL Reader" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaNetworking$EchoClient.ic" NAME="EchoClient Coverage Results" MODIFIED="1674989793828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

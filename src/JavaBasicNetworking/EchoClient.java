@@ -1,4 +1,4 @@
-package JavaNetworking;
+package JavaBasicNetworking;
 
 import java.net.Socket;
 

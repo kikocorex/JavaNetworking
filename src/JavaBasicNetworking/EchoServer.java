@@ -1,13 +1,14 @@
-package JavaNetworking;
+package JavaBasicNetworking;
 
-import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 public class EchoServer {
     public static void main(String[] args) {
 
-        try { System.out.println("Waiting for clients...");
+        try {
+            System.out.println("Server started!");
+            System.out.println("Waiting for clients...");
             // Create an object of a ServerSocket
             ServerSocket ss = new ServerSocket(9806);
             Socket soc = ss.accept(); // This method is a blocking call,

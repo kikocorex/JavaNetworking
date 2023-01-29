@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e6af4d3-76f7-4c0e-b826-9dd5c99a59e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaNetworking/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Text/Netoworking.txt" afterDir="false" />
+    <list default="true" id="9e6af4d3-76f7-4c0e-b826-9dd5c99a59e6" name="Changes" comment="- Added client and server">
+      <change afterPath="$PROJECT_DIR$/src/JavaNetworking/NetClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaNetworking/NetServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Text/Networking.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaNetworking/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNetworking/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasicNetworking/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNetworking/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasicNetworking/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Text/Netoworking.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +42,40 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EchoClient">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="JavaNetworking" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NetClient">
     <configuration name="EchoClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaNetworking.EchoClient" />
+      <option name="MAIN_CLASS_NAME" value="JavaBasicNetworking.EchoClient" />
+      <module name="JavaNetworking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaBasicNetworking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasicNetworking.EchoServer" />
+      <module name="JavaNetworking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaBasicNetworking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaNetworking.NetClient" />
       <module name="JavaNetworking" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaNetworking.EchoServer" />
+    <configuration name="NetServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaNetworking.NetServer" />
       <module name="JavaNetworking" />
       <extension name="coverage">
         <pattern>
@@ -68,11 +101,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NetClient" />
+      <item itemvalue="Application.NetServer" />
       <item itemvalue="Application.EchoClient" />
       <item itemvalue="Application.EchoServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NetClient" />
+        <item itemvalue="Application.NetServer" />
         <item itemvalue="Application.EchoClient" />
         <item itemvalue="Application.EchoServer" />
       </list>
@@ -86,8 +123,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674987002823</updated>
-      <workItem from="1674987004092" duration="2310000" />
+      <workItem from="1674987004092" duration="4796000" />
     </task>
+    <task id="LOCAL-00001" summary="- Added client and server">
+      <created>1674990067376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674990067376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +148,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Added client and server" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added client and server" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaNetworking$EchoClient.ic" NAME="EchoClient Coverage Results" MODIFIED="1674989793828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

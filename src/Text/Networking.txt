@@ -1,0 +1,21 @@
+Sockets
+
+
+
+
+Sever Socket
+
+TYPES OF STREAM!
+Input Stream
+-Reading data
+
+Output Stream
+-Writing/sending data
+
+Port Number VS IP Address
+
+IP Address - used for identifying a machine
+Port Number - used for identifying an application
+
+Port number is just a random number. But there are some port numbers which are reserved for specific services.
+For example port 21 is reserved for FTP. So as long as you don't use these reserved ports it should be fine.

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9e6af4d3-76f7-4c0e-b826-9dd5c99a59e6" name="Changes" comment="- Added URL Reader">
-      <change afterPath="$PROJECT_DIR$/src/JavaURL/URLConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNetworking/NetClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaNetworking/NetClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNetworking/NetServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaNetworking/NetServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaURL/URLReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaURL/URLReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +39,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -42,7 +53,7 @@
       <recent name="JavaNetworking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URLReader">
+  <component name="RunManager" selected="Application.NetClient">
     <configuration name="EchoClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasicNetworking.EchoClient" />
       <module name="JavaNetworking" />
@@ -117,9 +128,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URLReader" />
         <item itemvalue="Application.NetClient" />
         <item itemvalue="Application.NetServer" />
+        <item itemvalue="Application.URLReader" />
         <item itemvalue="Application.EchoClient" />
         <item itemvalue="Application.EchoServer" />
       </list>
@@ -133,7 +144,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674987002823</updated>
-      <workItem from="1674987004092" duration="7166000" />
+      <workItem from="1674987004092" duration="7176000" />
+      <workItem from="1675059032195" duration="2455000" />
+      <workItem from="1675172338603" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="- Added client and server">
       <created>1674990067376</created>
@@ -156,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675001881454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Added URL Reader">
+      <created>1675002977544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675002977544</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

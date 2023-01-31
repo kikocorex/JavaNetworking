@@ -13,6 +13,6 @@ public class URLReader {
         while ((inputLine = in.readLine()) != null)
             System.out.println(inputLine);
         in.close();
-
+        
     }
 }

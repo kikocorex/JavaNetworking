@@ -20,8 +20,11 @@ public class NetClient {
             output.println(name); //output the user input
 
             BufferedReader in = new BufferedReader(new InputStreamReader(soc.getInputStream()));
-            System.out.println(in.readLine());
-            System.out.println(in.readLine());
+
+            if (in.readLine() != null) {
+                System.out.println(in.readLine());
+            }
+            System.out.println("Input read completed");
 
         } catch (Exception e) {
             e.printStackTrace();
